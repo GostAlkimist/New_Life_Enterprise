@@ -6,4 +6,6 @@ Este repositorio solo publica el simulador ya compilado (`index.html`) con GitHu
 
 Para actualizarlo: compila el proyecto (`npm run build`) y reemplaza `index.html` por `dist/new-life-enterprise.html`.
 
-Plan B (audio por enlace): `plan-b-audio-externo.html` pesa 1,46 MB y carga la música desde `audio/` en este mismo sitio. Guía completa: `docs/publicacion/guia-google-sites.md` del repositorio fuente.
+Voces: las 91 locuciones de personajes y narrador están en `audio/voces/` y el `index.html` las carga desde aquí (sin internet usa la voz del navegador). Al actualizar, copia también `audio/voces/` del repositorio fuente.
+
+Plan B (audio por enlace): `plan-b-audio-externo.html` pesa 1,68 MB y carga la música desde `audio/` en este mismo sitio. Guía completa: `docs/publicacion/guia-google-sites.md` del repositorio fuente.
